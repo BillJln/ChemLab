@@ -1,0 +1,6 @@
+include ':unityLibrary'
+include ':refreshlibrary'
+include ':common'
+include ':app'
+project(':unityLibrary').projectDir = new File('..\\FunChemistry\\unityLibrary')
+rootProject.name = "FunChemistry"

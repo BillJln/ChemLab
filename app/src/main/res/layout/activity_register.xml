@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/register_background">
+
+    <include
+        layout="@layout/layout_title_register_bar" />
+
+    <ImageView
+        android:id="@+id/ivLogoText"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:src="@mipmap/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleRegisterBar" />
+
+    <EditText
+        android:id="@+id/etPhoneNumberOrEmail"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_person_white_18dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/string_input_username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/etPassWord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogoText"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <View
+        android:id="@+id/dividerPhoneNumberOrEmail"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/whiteAlpha85"
+        app:layout_constraintEnd_toEndOf="@id/etPhoneNumberOrEmail"
+        app:layout_constraintStart_toStartOf="@id/etPhoneNumberOrEmail"
+        app:layout_constraintTop_toBottomOf="@id/etPhoneNumberOrEmail" />
+
+    <EditText
+        android:id="@+id/etPassWord"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_password_white_lock_18dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/input_password_tips"
+        android:inputType="textPassword"
+        android:paddingTop="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/etPhoneNumberOrEmail"
+        app:layout_constraintStart_toStartOf="@id/etPhoneNumberOrEmail"
+        app:layout_constraintTop_toBottomOf="@id/etPhoneNumberOrEmail"
+        android:autofillHints="" />
+
+    <View
+        android:id="@+id/dividerPassWord"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/whiteAlpha85"
+        app:layout_constraintEnd_toEndOf="@id/etPassWord"
+        app:layout_constraintStart_toStartOf="@id/etPassWord"
+        app:layout_constraintTop_toBottomOf="@id/etPassWord" />
+
+    <EditText
+        android:id="@+id/concernPassWord"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_password_white_lock_18dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/string_input_concern_password"
+        android:inputType="textPassword"
+        android:paddingTop="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/etPassWord"
+        app:layout_constraintStart_toStartOf="@id/etPassWord"
+        app:layout_constraintTop_toBottomOf="@id/etPassWord" />
+
+    <View
+        android:id="@+id/concernDividerPassWord"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/whiteAlpha85"
+        app:layout_constraintEnd_toEndOf="@id/etPassWord"
+        app:layout_constraintStart_toStartOf="@id/etPassWord"
+        app:layout_constraintTop_toBottomOf="@id/etPassWord" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_baseline_phone_android_18dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/string_input_phone_number"
+        android:inputType="textPhonetic"
+        android:paddingTop="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/concernPassWord"
+        app:layout_constraintStart_toStartOf="@id/concernPassWord"
+        app:layout_constraintTop_toBottomOf="@id/concernPassWord" />
+
+    <View
+        android:id="@+id/dividerPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/whiteAlpha85"
+        app:layout_constraintEnd_toEndOf="@id/concernPassWord"
+        app:layout_constraintStart_toStartOf="@id/concernPassWord"
+        app:layout_constraintTop_toBottomOf="@id/concernPassWord" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_baseline_email_18dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="请输入邮箱"
+        android:inputType="textPhonetic"
+        android:paddingTop="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/etPhoneNumber"
+        app:layout_constraintStart_toStartOf="@id/etPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@id/etPhoneNumber" />
+
+    <View
+        android:id="@+id/dividerEmail"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@color/whiteAlpha85"
+        app:layout_constraintEnd_toEndOf="@id/etPhoneNumber"
+        app:layout_constraintStart_toStartOf="@id/etPhoneNumber"
+        app:layout_constraintTop_toBottomOf="@id/etPhoneNumber" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="注册并同意趣味化学相关服务条款"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/etEmail"
+        app:layout_constraintStart_toStartOf="@+id/etEmail"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+    <TextView
+        android:id="@+id/tvUserLogin"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/whiteAlpha50"
+        android:gravity="center"
+        android:text="@string/string_register"
+        android:textColor="@color/blackAlpha60"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/checkBox"
+        app:layout_constraintStart_toStartOf="@id/checkBox"
+        app:layout_constraintTop_toBottomOf="@id/checkBox" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

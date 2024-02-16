@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+    <RelativeLayout
+        android:id="@+id/titleSoftRelationBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBarSize"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/ivNavigateBefore7"
+            android:layout_width="@dimen/actionBarSize"
+            android:layout_height="@dimen/actionBarSize"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="14dp"
+            android:src="@drawable/ic_navigate_before_black_44dp" />
+
+        <TextView
+            android:id="@+id/tvTitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textSize="20sp"
+            tools:text="个人信息" />
+
+        <TextView
+            android:id="@+id/tvRightText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="9dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="右侧文字" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/maker_relation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        >
+        <View
+            android:id="@+id/maker_dividend"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_below="@+id/maker_dividend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/string_user_name"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/maker_dividend2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/grayDark"
+            android:layout_below="@+id/user_name"
+            android:layout_marginStart="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_user_name_place"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_below="@+id/maker_dividend2"
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/string_sex"
+            android:textColor="@color/black"/>
+        <View
+            android:id="@+id/version_dividend2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/sex"
+            />
+        <TextView
+            android:layout_below="@+id/maker_dividend2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_sex_place"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"/>
+
+        <View
+            android:id="@+id/version_dividend3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/grayDark"
+            android:layout_below="@+id/sex"
+            android:layout_marginStart="30dp"
+            />
+
+        <TextView
+            android:id="@+id/birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/string_birth_data"
+            android:textColor="@color/black"
+            android:layout_below="@+id/version_dividend3"/>
+
+        <TextView
+            android:id="@+id/unity_version_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/version_dividend3"
+            android:text="@string/string_birth_data_infromantion"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

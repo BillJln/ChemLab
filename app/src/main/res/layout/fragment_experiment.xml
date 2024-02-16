@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ui.fragment.LessonFragment">
+
+    <RelativeLayout
+        android:id="@+id/search_container"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#66CCFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/search_input_box"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toStartOf="@id/search_btn"
+            android:autofillHints=""
+            android:background="@drawable/shape_edit_box_bg"
+            android:focusable="true"
+            android:hint="@string/text_search_tips"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_cancel"
+            android:id="@+id/search_btn"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"/>
+
+        <ImageView
+            android:id="@+id/search_clean_btn"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/search_btn"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/remove"/>
+    </RelativeLayout>
+
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_container">
+
+        <com.scwang.smart.refresh.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.lcodecore.tkrefreshlayout.views.TbNestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_pager_nested_scroller"
+            android:overScrollMode="never">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.youth.banner.Banner
+                    xmlns:banner="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_150"
+                    android:layout_margin="10dp"
+                    banner:banner_radius="5dp"
+                    banner:banner_indicator_normal_color="@android:color/white"
+                    banner:banner_indicator_selected_color="@color/colorPrimary" />
+
+                <include
+                    android:id="@+id/include"
+                    layout="@layout/include_experiment_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recommend_experiment_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </com.lcodecore.tkrefreshlayout.views.TbNestedScrollView>
+        <com.scwang.smart.refresh.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">趣味化学</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="title_experiment">实验</string>
+    <string name="title_mine">我的</string>
+    <string name="title_lesson">课程</string>
+    <string name="string_experiment_toolbar">课程学习</string>
+    <string name="string_lesson_toolbar">课程教学</string>
+    <string name="string_text_mine">个人页面</string>
+    <string name="text_search_tips">请输入你想要查找的课程</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_recommend_lesson">精品课程推荐</string>
+    <string name="image_recommend_experiment">image_recommend_experiment</string>
+    <string name="text_from">出品方</string>
+    <string name="number_broadcast">100000</string>
+    <string name="service_error">服务器出错</string>
+    <string name="not_found">请求的资源不存在</string>
+    <string name="timeout">请求超时</string>
+    <string name="unexpected_error">未知错误</string>
+    <string name="network_wrong">网络有问题</string>
+    <string name="xloading_error_text">404_NOT_FOUND</string>
+    <string name="xloading_retry_text">Please click and retry</string>
+    <string name="text_error">出错了！</string>
+    <string name="text_retry">重试</string>
+    <string name="xloading_empty_text">对不起，没有内容</string>
+    <string name="xloading_no_network_text">连接超时</string>
+
+    <string name="share_to">分享到</string>
+    <string name="guide_login_tips">点击登录即可评论及发布内容</string>
+    <string name="favorites">收藏</string>
+    <string name="cache">缓存</string>
+    <string name="my_follow">我的关注</string>
+    <string name="watch_record">观看记录</string>
+    <string name="notification_toggle">通知开关</string>
+    <string name="soft_relation">软件相关</string>
+    <string name="feedback">意见反馈</string>
+    <string name="my_study">我的学习</string>
+
+    <string name="your_phone_does_not_install_qq">您的手机还没有安装QQ</string>
+    <string name="your_phone_does_not_install_wechat">您的手机还没有安装微信</string>
+    <string name="your_phone_does_not_install_weibo">您的手机还没有安装微博</string>
+    <string name="your_phone_does_not_install_qq_zone">您的手机还没有安装QQ空间</string>
+    <string name="share_unknown_error">分享出现未知错误</string>
+
+    <string name="share">分享</string>
+    <string name="wechat">微信</string>
+    <string name="weibo">微博</string>
+    <string name="qq_friends">QQ</string>
+    <string name="qq_zone">QQ空间</string>
+    <string name="more">更多</string>
+    <string name="cancel">取消</string>
+    <string name="plus_follow">关注</string>
+    <string name="string_recommend_experiment">精选实验</string>
+    <string name="string_recommend_lesson">精选课程</string>
+    <string name="text_recommend_experiment">精品实验推荐</string>
+
+    <string name="request_permission_picture_processing">需要存储权限来处理您的图片信息</string>
+    <string name="request_permission_access_phone_info">趣味化学视频推荐和观看记录等功能，需要访问手机识别码等信息</string>
+    <string name="ok">确定</string>
+    <string name="settings">设置</string>
+    <string name="text_loading_icon">加载界面图标</string>
+    <string name="text_empty">内容为空</string>
+    <string name="text_network_error_tips">网络错误，请点击重试</string>
+    <string name="text_loading_tips">正在加载中，请稍后……</string>
+    <string name="login_tips">登录观看更多内容</string>
+    <string name="Input_iphone_or_email_tips">请输入手机号/邮箱地址</string>
+    <string name="input_password_tips">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="user_register">用户注册</string>
+    <string name="author_login">教师登录</string>
+    <string name="login_register_agree_tips">登录或注册即同意趣味化学</string>
+    <string name="user_service_agreement">用户服务条款</string>
+    <string name="forgot_password">找回密码</string>
+    <string name="string_input_concern_password">请确认密码</string>
+    <string name="string_input_username">请输入用户名</string>
+    <string name="string_input_phone_number">请输入手机号码</string>
+    <string name="string_register">确认注册</string>
+    <string name="string_concern">服务条款</string>
+    <string name="string_tv_like">收藏</string>
+    <string name="string_tv_document">文档</string>
+    <string name="string_tv_downment">下载</string>
+    <string name="string_tv_share">分享</string>
+    <string name="string_tv_experiment">实验</string>
+    <string name="string_version">软件版本</string>
+    <string name="string_maker">制作团队</string>
+    <string name="string_maker_name">趣味化学开发小组</string>
+    <string name="string_version_code">1.0.0</string>
+    <string name="string_version_unity">Unity版本</string>
+    <string name="string_version_unity_code">2019.4.21</string>
+    <string name="input_problem">请输入遇到的问题或建议？</string>
+    <string name="phone_email">电话/邮箱</string>
+    <string name="phone_email_hint">选填，以便于我们联系您</string>
+    <string name="string_feedback">意见反馈</string>
+    <string name="string_notice">通知开关</string>
+    <string name="string_history">历史记录</string>
+    <string name="string_data_favourite">2021-03-30</string>
+    <string name="string_favourite_lesson">2021-03-30</string>
+    <string name="string_think_map">思维导图</string>
+    <string name="string_learning_station">学习曲线</string>
+    <string name="string_learning_month">月学习曲线</string>
+    <string name="string_year">年度学习柱状图</string>
+
+    <string name="H2O2_To_O2">过氧化氢分解制取氧气\n\n
+实验器具：5%H2o2溶液 Mno2 量筒 试管 试管架 药匙 带火星木条 电子天平\n\n
+实验步骤：\n\n
+实验1 试管中盛有适量5%过氧化氢溶液。把带火星的木条伸入试管中，观察到没有明显的变化。\n\n
+实验2 用电子天平称取0.5克二氧化锰，装入试管中。再向试管中加入适量5%过氧化氢溶液，观察到试管中有大量气泡生成，把带火星的木条伸入试管中，木条复燃，说明有氧气生成。\n\n
+实验3 待上述试管中没有现象发生时，重新加入过氧化氢溶液。并把带火星的木条伸入试管，观察到试管中有气泡生成，带火星的木条复燃，但是莞中又没有现象发生时，再重复上述操作，观察到试管中再次有气泡生成，带火星的木条复燃。\n\n
+把二氧化锰洗净干燥，发现二氧化锰的质量为0.5克， 由于在实验一中带火星的木条不能复燃，是因为过氧化氢溶液在常温下分解缓慢，放出的氧气很少，在实验二中是因为过氧化氢溶液中加入少量二氧化锰，使分解加速，在实验三中实验重复多次，每次只消耗了过氧化氢二氧化锰的质量没有减少，像二氧化锰在化学反应里能改变其他物质的化学反应速率，而本身的质量和化学性质在反应前后都没有发生变化的物质，叫做催化剂，催化剂在化学反应中所起的作用叫做催化作用。\n\n
+注意事项：Mno2需要充分洗净干燥后再次称量，避免残留物造成误差\n\n
+</string>
+
+    <string name="Fe_O2">铁丝在氧气中燃烧\n\n
+实验器具：细铁丝 酒精灯 火柴 充满氧气集气瓶 玻璃片（集气瓶盖）\n\n
+实验步骤：\n\n
+把两根光亮的细铁丝，分别盘成螺旋状，取一根在酒精灯上灼烧观察现象。铁丝呈红色，装为燃烧一根火柴，点燃火柴，燃尽时插入充满氧气的集气瓶中，预先放入一些水，观察到铁丝剧烈燃烧，火星四射生成黑色固体，这种黑色固体是四氧化三铁，通过这个实验我们知道一，氧气具有助燃性，二，铁和氧气在点燃条件下反应生成四氧化三铁。\n\n
+注意事项：集气瓶需要是磨砂瓶口，盖上玻璃片起到密封作用\n\n
+</string>
+    
+    <string name="NaCl">配置氯化钠溶液\n\n
+实验器具：纸片 氯化钠 烧杯 水 电子秤 玻璃棒 量筒\n\n
+在室温下，根据两个规定的质量配制氯化钠溶液观察现象，先将20克氯化钠倒入盛有80克水的烧杯中。用玻璃棒搅拌。再将10克氯化钠倒入盛有90克水的地烧杯中，其中水是溶剂，用玻璃棒搅拌。可以看到两只烧杯中的氯化钠都全部溶解，形成氯化钠溶液，分别计算溶液中溶质的质量分数，a烧杯中的溶质的质量分数为20%，b烧杯中的溶质的质量分数为10%，通过这个实验我们知道，溶液质量相等时，溶剂的质量越大，溶质的质量分数越小。\n\n
+注意事项：使用量筒量取液体体积时，正确读数的方法为：量筒必须放平，视线要与量筒内液体的凹液面的最低处保持水平；如果仰视则读数偏低，如果俯视则读数偏高。\n\n
+</string>
+
+    <string name="H2SO4">浓硫酸的稀释\n\n
+实验器具：烧杯 温度计 浓硫酸 玻璃棒 水\n\n
+实验步骤：将浓硫酸沿烧杯壁缓慢的注入盛有适量水的烧杯里，用玻璃棒不断搅拌，可以观察到，温度计示数在不断升高，说明浓硫酸稀释时放出热量，通过上面的实验可以将浓硫酸稀释，实验室将浓硫酸缓慢注入水中。但如果将水注入到浓硫酸中，由于水的密度较小，水会浮在浓硫酸上面，溶解时放出的热能使水立刻沸腾，这是非常危险的，注意事项，在稀释浓硫酸时，一定要把浓硫酸沿器壁慢慢注入水里，并不断搅拌，切不可将水倒入浓硫酸。\n\n
+注意事项：浓硫酸慢慢用玻璃棒引流加入水中，并不断搅拌\n\n
+</string>
+    
+    <string name="NaOH_BaCl">氢氧化钠，氯化钡与硫酸铜反应\n\n
+实验1器具：滴管 试管架 试管 硫酸铜 氢氧化钠\n\n
+实验2器具：滴管 试管架 试管 硫酸铜 氯化钡\n\n
+实验步骤：\n\n
+实验1：向盛有氢氧化钠溶液的试管中滴加少量硫酸铜溶液。观察到有蓝色絮状沉淀生成，这是硫酸铜溶液中铜离子与氢氧化钠溶液中的氢氧根离子生成的氢氧化铜沉淀。\n\n
+实验2：向盛有氯化钡溶液的试管中，滴加少量硫酸铜溶液。观察到有白色沉淀生成，同时溶液变成淡蓝色，这是硫酸铜溶液中的硫酸根离子与氯化钡溶液中的钡离子生成的硫酸钡沉淀，由此我们知道，硫酸铜与氢氧化钠，氯化钡反应都有沉淀生成，发生的都是复分解反应。\n\n
+注意事项：取用少量的液体时，需要用到胶头滴管。胶头滴管是由“玻璃管”和“橡胶头”组成，因此在使用时要注意：1、滴加时应悬空在仪器正上方，不能深入仪器。(滴管的玻璃管很脆很细，如果碰触到仪器很容易折断) 2、用胶头滴管吸完液体后，橡胶头要朝上放，不能平放或是朝下，也不能放在桌子上，因为胶头很容易被腐蚀，然后损坏。\n\n
+</string>
+    <string name="string_no_login">该功能请在登录后使用</string>
+    <string name="string_user_name">用户名</string>
+    <string name="string_user_name_place">吾爱化学</string>
+    <string name="string_sex">性别</string>
+    <string name="string_sex_place">男</string>
+    <string name="string_birth_data">出生日期</string>
+    <string name="string_birth_data_infromantion">待完善</string>
+
+</resources>

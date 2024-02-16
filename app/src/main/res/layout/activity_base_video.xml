@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kk.taurus.playerbase.widget.BaseVideoView
+        android:id="@+id/baseVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#000000"/>
+
+    <include android:id="@+id/touch_land"
+        layout="@layout/layout_touch_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baseVideoView"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/touch_land"
+        android:overScrollMode="never">
+        <TextView
+            android:id="@+id/text_word"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="@dimen/dp_10"/>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

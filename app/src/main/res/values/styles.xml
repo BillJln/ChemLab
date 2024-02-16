@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Chemistry" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.FunChemistry">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="LoadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Chemistry.SettingTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">45dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Chemistry.MineTextView" parent="Chemistry.SettingTextView">
+        <item name="android:layout_height">25.5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">35dp</item>
+    </style>
+
+    <declare-styleable name="AutoLoopStyle">
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+    <!--    playlib-->
+    <style name="dialog_change_clarity" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/AlertDialog.AppCompat</item>
+        <item name="android:windowBackground">@color/dialogs_bg</item>
+    </style>
+
+</resources>
